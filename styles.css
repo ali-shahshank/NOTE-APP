@@ -1,0 +1,87 @@
+/* STYLES.CSS */
+/* Inter Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(75deg, rgb(218, 0, 218), rgb(0, 225, 255));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 4%;
+  padding-left: 10%;
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+  color: #fff;
+}
+
+.container h1 {
+  font-size: 35px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.container h1 img {
+  margin: 0px 20px;
+}
+
+.container button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#9418fd, #570194);
+  border: 0;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+  margin: 20px 20px;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  margin: 20px 20px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.input-box img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
